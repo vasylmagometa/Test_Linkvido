@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="3.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="3.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Likvido.CreditRisk.DataAccess.Abstraction\Likvido.CreditRisk.DataAccess.Abstraction.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.DataAccess\Likvido.CreditRisk.DataAccess.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Domain\Likvido.CreditRisk.Domain.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.ElasticSearch\Likvido.CreditRisk.ElasticSearch.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Infrastructure\Likvido.CreditRisk.Infrastructure.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Services.Abstraction\Likvido.CreditRisk.Services.Abstraction.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Services\Likvido.CreditRisk.Services.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Utils\Likvido.CreditRisk.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

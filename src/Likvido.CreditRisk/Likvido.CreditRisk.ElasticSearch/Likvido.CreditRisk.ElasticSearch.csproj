@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Likvido.CreditRisk.Domain\Likvido.CreditRisk.Domain.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.ElasticSearch.Abstraction\Likvido.CreditRisk.ElasticSearch.Abstraction.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Infrastructure\Likvido.CreditRisk.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Likvido.CreditRisk.DataAccess.Abstraction\Likvido.CreditRisk.DataAccess.Abstraction.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Domain\Likvido.CreditRisk.Domain.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.ElasticSearch.Abstraction\Likvido.CreditRisk.ElasticSearch.Abstraction.csproj" />
+    <ProjectReference Include="..\Likvido.CreditRisk.Services.Abstraction\Likvido.CreditRisk.Services.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
